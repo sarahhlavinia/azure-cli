@@ -1,0 +1,17 @@
+#!/bin/bash
+
+    if [[ $1 == login* ]]; then
+      source ./azure-cli-login.sh
+
+    elif [[ $1 == subscription-* ]]; then
+      source ./azure-cli-subscription.sh
+
+    elif [[ $1 == sqlserver-* ]]; then
+      source ./azure-cli-sqlserver.sh
+
+    elif [[ $1 == keyvault-* ]]; then
+      source ./azure-cli-keyvault.sh
+
+    elif [[ $1 == user-* ]]; then
+      source ./azure-cli-user.sh  
+    fi

@@ -1,0 +1,8 @@
+
+    CREATE USER [55136955@ad.mmu.ac.uk] FROM EXTERNAL PROVIDER WITH DEFAULT_SCHEMA = dbo;
+ALTER ROLE dbmanager ADD MEMBER [55136955@ad.mmu.ac.uk];
+ALTER ROLE loginmanager ADD MEMBER [55136955@ad.mmu.ac.uk];
+ 
+
+    CREATE USER [55136955@ad.mmu.ac.uk] FROM EXTERNAL PROVIDER WITH DEFAULT_SCHEMA = dbo;
+ALTER ROLE db_datareader ADD MEMBER [55136955@ad.mmu.ac.uk];

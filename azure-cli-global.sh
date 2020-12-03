@@ -1,0 +1,10 @@
+NONE='\033[00m'
+RED='\033[01;31m'
+GREEN='\033[01;32m'
+YELLOW='\033[00;33m'
+PURPLE='\033[01;35m'
+CYAN='\033[01;36m'
+WHITE='\033[01;37m'
+UNDERLINE='\033[4m'
+bold=$(tput bold)
+normal=$(tput sgr0)
